@@ -7,3 +7,9 @@ Work in progress (WIP)
 Some examples for using System.Random and UnityEngine.Random.
 This Project contains errors: in the Update.cs Script 7, and 3 in the project itself 
 (e.g., missing assignment on the OnClick function of a button).
+
+
+Links: 
++ https://help.github.com/articles/fork-a-repo/
++ https://docs.unity3d.com/530/Documentation/ScriptReference/Random.html
++ https://docs.unity3d.com/530/Documentation/ScriptReference/Random-seed.html
