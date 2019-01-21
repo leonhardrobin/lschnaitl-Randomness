@@ -48,7 +48,7 @@ public class Updater : MonoBehaviour {
     {
         Transform circTransform = circlePosition.GetComponent<Transform>();
         
-        float randomPosX = UnityEngine.Random.Next(5, 433);
+        float randomPosX = UnityEngine.Random.Range(5, 433); // When using Unity's Random class use .Range instead of .Next (method of the System.Random class)
         circTransform.localPosition = new Vector3(randomPosX, circTransform.localPosition.y, circTransform.localPosition.z);
     }
 
