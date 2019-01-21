@@ -1231,7 +1231,7 @@ GameObject:
   - component: {fileID: 1309939059}
   - component: {fileID: 1309939060}
   m_Layer: 0
-  m_Name: CirclColor
+  m_Name: CircleColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1643,7 +1643,6 @@ MonoBehaviour:
   text: {fileID: 865068795}
   inputtext: This is a Text
   circleColor: {fileID: 1309939058}
-  color: {r: 0, g: 0, b: 0, a: 0}
   shuffleCircles:
   - {fileID: 929321377}
   - {fileID: 179902333}
