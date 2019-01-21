@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class Updater : MonoBehaviour {
 
-    public Text text;
-    public string inputtext;
+    [SerializeField] Text text; // those variables dont actually need to be public 
+    [SerializeField] string inputtext;
     public GameObject circleColor;
     // removed unnecessary variable color - it was never used
     public GameObject[] shuffleCircles;
@@ -35,13 +35,13 @@ public class Updater : MonoBehaviour {
 
     public void UpdateCircleColor()
     {
-        SpriteRenderer circRenderer = circleColor.GetComponent<SpriteRenderer>();
+        SpriteRenderer circleRenderer = circleColor.GetComponent<SpriteRenderer>(); // renamed the SpriteRenderer from circRenderer (not sure if intetional)
         byte r = (byte)rnd.Next(0, 255);
         byte g = (byte)rnd.Next(0, 255);
         byte b = (byte)rnd.Next(0, 255);
         byte a = (byte)rnd.Next(0, 255); // dont if the circle in the apha channel is intentional or by mistake
 
-        circRenderer.color = new Color32(r, g, b, a);
+        circleRenderer.color = new Color32(r, g, b, a);
     }
 	
     public void UpdateObjectPosition()
