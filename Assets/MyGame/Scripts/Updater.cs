@@ -23,7 +23,7 @@ public class Updater : MonoBehaviour {
         colorList = new List<Color> {
             Color.red,
             Color.blue,
-            Color.green
+            Color.green, // forgot to add comma
             Color.magenta
         };
     }
