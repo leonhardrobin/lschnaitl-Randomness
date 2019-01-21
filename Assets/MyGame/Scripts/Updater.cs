@@ -39,7 +39,7 @@ public class Updater : MonoBehaviour {
         byte r = (byte)rnd.Next(0, 255);
         byte g = (byte)rnd.Next(0, 255);
         byte b = (byte)rnd.Next(0, 255);
-        byte a = (byte)rnd.Next(0, 255);
+        byte a = (byte)rnd.Next(0, 255); // dont if the circle in the apha channel is intentional or by mistake
 
         circRenderer.color = new Color32(r, g, b, a);
     }
