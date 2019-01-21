@@ -30,7 +30,7 @@ public class Updater : MonoBehaviour {
 
     public void UpdateTextWithInspectorInput()
     {
-        Text.text = inputtext;
+        text.text = inputtext; //the "text" variable was written with a capital T, resulting in the interpreter to see it as the Class
     }
 
     public void UpdateCircleColor()
