@@ -1642,7 +1642,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 865068795}
   inputtext: This is a Text
-  circleColor: {fileID: 1029368350}
+  circleColor: {fileID: 1309939058}
   color: {r: 0, g: 0, b: 0, a: 0}
   shuffleCircles:
   - {fileID: 929321377}
@@ -1717,7 +1717,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Random Object Position Update
+  m_Text: Random Object Color Shuffle
 --- !u!222 &1887613082
 CanvasRenderer:
   m_ObjectHideFlags: 0
