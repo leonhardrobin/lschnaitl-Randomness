@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Updater : MonoBehaviour {
 
-    [SerializeField] Text text; // those variables dont actually need to be public 
+    [SerializeField] Text text; // those variables dont actually need to be public  
     [SerializeField] string inputtext;
     public GameObject circleColor;
     // removed unnecessary variable color - it was never used
