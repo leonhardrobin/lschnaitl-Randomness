@@ -18,7 +18,7 @@ public class Updater : MonoBehaviour {
     
     private void Start()
     {
-        inputtext = "change text";
+       // removed overriding the input text
 
         colorList = new List<Color> {
             Color.red,
