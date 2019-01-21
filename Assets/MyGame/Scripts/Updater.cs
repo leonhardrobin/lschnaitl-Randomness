@@ -46,10 +46,10 @@ public class Updater : MonoBehaviour {
 	
     public void UpdateObjectPosition()
     {
-        Transform circTransform = circlePosition.GetComponent<Transform>();
+        Transform circleTransform = circlePosition.GetComponent<Transform>(); // renamed the Transfrom from circTransfrom, not sure if this is considered a mistake (only a var name)
         
         float randomPosX = UnityEngine.Random.Range(5, 433); // When using Unity's Random class use .Range instead of .Next (method of the System.Random class)
-        circTransform.localPosition = new Vector3(randomPosX, circTransform.localPosition.y, circTransform.localPosition.z);
+        circleTransform.localPosition = new Vector3(randomPosX, circleTransform.localPosition.y, circleTransform.localPosition.z);
     }
 
     public void ShuffleColorsInCircles()
