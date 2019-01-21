@@ -8,7 +8,7 @@ public class Updater : MonoBehaviour {
     public Text text;
     public string inputtext;
     public GameObject circleColor;
-    public Color color;
+    // removed unnecessary variable color - it was never used
     public GameObject[] shuffleCircles;
 
     [SerializeField] GameObject circlePosition;
